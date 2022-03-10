@@ -124,7 +124,9 @@ const Cart = () => {
                             Для того, чтобы заказать пиццу, перейди на главную страницу.
                         </p>
                         <img src={emptyCart} alt="Empty cart" />
-                        
+                        <Link to="/" className="button button--black">
+                            <span>Вернуться dgtht</span>
+                        </Link>
                     </div>
             }
 
