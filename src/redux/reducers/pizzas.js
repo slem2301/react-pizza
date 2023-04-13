@@ -3,6 +3,7 @@ import {SET_PIZZAS, SET_LOADED} from "../actions/actionsType";
 const initialState = {
     items: [],
     isLoaded: false,
+    nb: true,
 };
 
 
